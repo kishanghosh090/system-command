@@ -29,3 +29,8 @@ cat /etc/shells
 ./script.sh
 bash script.sh
 ```
+
+
+- to use maps in shell script
+> typeset -A user_data
+> declare -A user_data
