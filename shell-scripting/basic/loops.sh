@@ -6,6 +6,11 @@ do
     echo "Number is $i"
 done    
 
+len=5
+for (( i=0; i < $len; i++))
+do 
+    echo "value $i"
+done    
 
 count=1
 while [ $count -le 5 ]
