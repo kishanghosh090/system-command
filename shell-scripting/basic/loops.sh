@@ -28,3 +28,9 @@ until [ $counter -gt 5 ]; do
     echo "Count: $counter"
     let counter++
 done
+
+while true
+do 
+    echo "hello chai"
+    sleep 2s
+done    
