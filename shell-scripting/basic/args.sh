@@ -5,3 +5,6 @@
 # to use or display a arg -> $1 $2 $3 ...
 
 echo $1
+
+shift
+echo "$@"
