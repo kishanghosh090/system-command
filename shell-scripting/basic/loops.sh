@@ -12,9 +12,19 @@ do
     echo "value $i"
 done    
 
+# -----------------------------
+
 count=1
 while [ $count -le 5 ]
 do
     echo "Count is $count"
     ((count++))
+done
+
+# -----------------------------
+
+counter=1
+until [ $counter -gt 5 ]; do
+    echo "Count: $counter"
+    let counter++
 done
