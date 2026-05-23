@@ -1,0 +1,12 @@
+echo $RANDOM
+echo $BASH
+echo $BASH_VERSION
+echo $HOME
+echo $PWD
+echo $USER
+echo $SHELL
+echo $HOSTNAME
+echo $OSTYPE
+echo $UID
+echo $EUID
+echo $PPID
