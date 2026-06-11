@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#declare -A map
+#map = ( [name]=chai [age]=20 )
+#echo "${map[name]}"
+
+declare -A my_map
+
+my_map["name"]="Alice"
+my_map["age"]=30
+
+echo "${my_map[age]}"
